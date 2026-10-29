@@ -1,0 +1,21 @@
+import 'package:cesc01/core/helper/app_env.dart';
+import 'package:cesc01/core/helper/device_status.dart';
+import 'package:cesc01/core/helper/userData/user_helper.dart';
+import 'package:cesc01/core/network/api/admin.dart';
+import 'package:cesc01/core/network/base/interceptor/network_status/network_status.dart';
+import 'package:cesc01/core/network/bean/auth_entity.dart';
+import 'package:cesc01/core/state/network/base_net_connect_logic.dart';
+import 'package:cesc01/core/translations/lan_key.dart';
+import 'package:cesc01/feature/login/widget/dialog_utils.dart';
+import 'package:cesc01/feature/mine/dialog/auth_scope_dialog.dart';
+import 'package:cesc01/feature/mine/dialog/notify_dialog.dart';
+import 'package:cesc01/feature/mine/dialog/org_dialog.dart';
+import 'package:cesc01/feature/mine/widget/logout_button.dart';
+import 'package:cesc01/feature/mine/widget/mine_header.dart';
+import 'package:cesc01/feature/mine/widget/mine_menu.dart';
+import 'package:cesc01/routes/index.dart';
+import 'package:flutter/material.dart';
+import 'package:get/get.dart';
+
+part 'logic.dart';
+part 'view.dart';

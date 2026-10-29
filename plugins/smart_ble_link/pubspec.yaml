@@ -1,0 +1,21 @@
+name: smart_ble_link
+description: BLE smart config link plugin wrapping the Hiflying BLELink SDK (Android) and JY_BlueSDK (iOS).
+version: 1.0.0
+publish_to: 'none'
+
+environment:
+  sdk: ^3.13.4
+  flutter: '>=3.35.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+flutter:
+  plugin:
+    platforms:
+      android:
+        package: com.example.smart_ble_link
+        pluginClass: SmartBleLinkPlugin
+      ios:
+        pluginClass: SmartBleLinkPlugin

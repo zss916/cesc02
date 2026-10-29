@@ -1,0 +1,22 @@
+PODS:
+  - Flutter (1.0.0)
+  - smart_ble_link (1.0.0):
+    - Flutter
+
+DEPENDENCIES:
+  - Flutter (from `Flutter`)
+  - smart_ble_link (from `.symlinks/plugins/smart_ble_link/ios`)
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: Flutter
+  smart_ble_link:
+    :path: ".symlinks/plugins/smart_ble_link/ios"
+
+SPEC CHECKSUMS:
+  Flutter: 71a624a5bc0c04062bf19101d501e466baf2fb47
+  smart_ble_link: 361afdffef58552aa81e3d84b2be684325b64a81
+
+PODFILE CHECKSUM: 04a3037d7ea1feeb61bbb5124f46a2faffb04b83
+
+COCOAPODS: 1.16.2

@@ -1,0 +1,49 @@
+
+
+# 自定义下面的参数，然后在命令行终端运行下面的命令：
+# flutter pub run flutter_native_splash:create
+# 要恢复为 Flutter 默认的白色闪屏界面，运行下面的命令：
+# flutter pub run flutter_native_splash:remove
+
+
+#flutter pub run flutter_native_splash:create --path=/Users/hugo/Desktop/cescpro/flutter_native_splash.yaml
+flutter_native_splash:
+
+  #一张图作为splash
+  #background_image: assets/splash/splash.png
+  #background_image_dark: assets/splash/splash.png
+
+
+  #底图纯色作为splash
+  color_dark: "#FFFFFF"
+  fullscreen: true
+  image_dark: assets/launch/logo.png
+  #branding_dark: assets/branding-development.png
+
+  color: "#FFFFFF"
+  image: assets/launch/logo.png
+  #branding: assets/branding-development.png
+  android_gravity: center
+  ios_content_mode: center
+
+
+  #尺寸1024x1024,但是logo 要缩少60%，中心icon尺寸X: 83 ~ 939 ，Y: 255 ~ 770
+  android_12:
+    color: "#FFFFFF"# 背景色
+    color_dark: "#FFFFFF"# 背景色（深色模式）
+    image: assets/launch/splash_logo_android12.png # 中心图标
+    icon_background_color: "#FFFFFF"
+    image_dark: assets/launch/splash_logo_android12.png # 中心图标（深色模式）
+
+
+
+    #image_dark: assets/appname.png
+    #icon_background_color_dark: "#FFED00"
+    #image: assets/logo-development.png
+    #icon_background_color: "#ffffff"
+    #image_dark: assets/logo-development.png
+    #icon_background_color_dark: "#121212"
+
+  android: true
+  web: false
+  ios: true
